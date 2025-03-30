@@ -78,7 +78,7 @@ You've had to "jump" through **9 different methods** just to understand one simp
 
 ## Depth: A Better Alternative
 
-John Ousterhout, author of *A Philosophy of Software Design*, posed an interesting question:
+[John Ousterhout](https://amzn.to/3FMslYi), author of [A Philosophy of Software Design by John Ousterhout](https://amzn.to/3FMslYi), posed an interesting question:
 
 > "Is it easier to read several short functions and understand how they work together than it is to read one larger function?"
 
@@ -139,7 +139,7 @@ This doesn't mean you should write extremely long methods. Instead, focus on cre
 
 ## Conclusion
 
-As John Ousterhout said:
+As [John Ousterhout](https://amzn.to/3FMslYi) said:
 
 > "Depth is more important than length: first make functions deep, then try to make them short enough to be easily read. Don't sacrifice depth for length."
 
