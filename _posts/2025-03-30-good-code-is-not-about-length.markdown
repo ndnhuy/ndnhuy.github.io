@@ -1,15 +1,11 @@
 ---
 layout: post
-title:  "My new post"
+title:  "Good Code Isn't About Length—It's About Depth"
 date:   2025-03-30 15:35:10 +0700
 categories: my-post
 ---
 
-# Good Code Isn't About Length—It's About Depth
-
 Have you ever heard someone say, "Shorter methods are always better"? This is one of those "golden rules" that many new programmers are taught. But is it really the absolute truth?
-
----
 
 ## When Shorter Isn't Better
 
@@ -17,9 +13,6 @@ Imagine reading a book where each story is broken into tiny fragments, scattered
 
 Code works the same way. When we try to break everything down into super-short methods, we inadvertently create a maze of logic that readers must constantly "jump" through to understand the entire process.
 
-![Fragmented methods = mental jumps](/assets/images/fragmented-methods-diagram.png)
-
----
 
 ## A Real-World Example
 
@@ -83,8 +76,6 @@ Looks neat and tidy at first glance, doesn't it? Each method does just one thing
 
 You've had to "jump" through **9 different methods** just to understand one simple login process!
 
----
-
 ## Depth: A Better Alternative
 
 John Ousterhout, author of *A Philosophy of Software Design*, posed an interesting question:
@@ -94,8 +85,6 @@ John Ousterhout, author of *A Philosophy of Software Design*, posed an interesti
 The answer is often no.
 
 He proposed the concept of **depth** in code—the idea that a method should do enough at the right level of abstraction, rather than being extremely short.
-
----
 
 ### Here's an improved version of the login function:
 
@@ -131,10 +120,6 @@ Is this version longer? Yes. But is it easier to understand? Absolutely!
 
 All the steps of the login process are presented clearly, in a logical order, with comments explaining each part. There's no need to jump between methods—the entire story is told in one place.
 
-![Flat vs Deep Code](/assets/images/depth-vs-fragmentation.png)
-
----
-
 ## Benefits of Deep Code
 
 When you write code with proper depth, you gain several benefits:
@@ -144,8 +129,6 @@ When you write code with proper depth, you gain several benefits:
 ✅ Reduced mental load: Readers don't have to keep track of too much context  
 ✅ Easier debugging: Errors are easier to spot when the entire process is in one place  
 
----
-
 ## Balance is Key
 
 This doesn't mean you should write extremely long methods. Instead, focus on creating methods with the **right depth**:
@@ -153,8 +136,6 @@ This doesn't mean you should write extremely long methods. Instead, focus on cre
 - Design methods that do the right amount of work at the right level of abstraction  
 - Ensure each method tells a complete and meaningful "story"  
 - Then try to keep them short enough to be easily read—but not so short that they fragment the logic  
-
----
 
 ## Conclusion
 
@@ -167,8 +148,6 @@ The next time you write code, don't worry too much about whether your methods ar
 **"Does this method tell a complete and meaningful story? Is it at the right level of abstraction?"**
 
 Because good code isn't about length—it's about **depth**.
-
----
 
 *Did you find this article helpful? Share it with your colleagues and leave a comment about how you apply the principle of "depth" in your own code!*
 
