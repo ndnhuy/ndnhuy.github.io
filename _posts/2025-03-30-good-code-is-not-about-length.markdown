@@ -149,5 +149,9 @@ The next time you write code, don't worry too much about whether your methods ar
 
 Because good code isn't about length—it's about **depth**.
 
+## Learn More About Code Depth
+
+Want to dive deeper into these concepts? The book [A Philosophy of Software Design by John Ousterhout](https://amzn.to/3FMslYi) explores code depth and many other revolutionary software design principles in detail. It's a relatively short read that will significantly impact how you approach code organization and complexity management.
+
 *Did you find this article helpful? Share it with your colleagues and leave a comment about how you apply the principle of "depth" in your own code!*
 
